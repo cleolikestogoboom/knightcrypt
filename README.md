@@ -1,7 +1,7 @@
 ### What the hell is this?
 **This is an encryption library made with little to no experience with encryption and whatnot because I'm a retard, anyways this is just some silly project i made so yeah go ahead do whatever you want and report any errors by contacting me at either [mailing me](mailto:angelic@nigge.rs) or by contacting me on Discord (@sanchoforza or @gloriasancho)**
 ### How do I use this?
-```python -m knightcrypt.cli my_script.py -k secret```
+```python -m knightcrypt.cli my_script.py -k secret``` (optional flags: -o {filename}.py for a different file name after output, -l for level of obfuscation [high, low, medium])
 **I'mma test this out real quick**
 **Yeah it works** - 2 minutes later
 ### What it should output:
