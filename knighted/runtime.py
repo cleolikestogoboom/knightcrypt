@@ -56,7 +56,7 @@ class KnightRuntime:
         with open(current_file, 'rb') as f:
             content = f.read()
         current_hash = hashlib.sha256(content).hexdigest()
-        expected_hash = "your_expected_hash_here"  # Replace with actual hash of this file
+        expected_hash = "60FB0060E6E2BB237E319F24E4C013E6DE46E039F6BD9A0C829BDF09636B5335"  # Replace with actual hash of this file
         if current_hash != expected_hash:
             raise KnightRuntimeError("Runtime integrity check failed: File may have been tampered with.")
         
