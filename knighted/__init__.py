@@ -10,8 +10,8 @@ __discord__ = "@sanchoforza / @gloriasancho"
 __license__ = "MIT"
 
 # Import core classes for easy access
-from knightcrypt.obfuscation import KnightObfuscator
-from knightcrypt.cli import main as cli_main
+from knighted.obfuscation import KnightObfuscator
+from knighted.cli import main as cli_main
 
 # Optional: Expose key functions for programmatic use
 def encrypt_file(input_path, output_path=None, key="default", level="low"):
