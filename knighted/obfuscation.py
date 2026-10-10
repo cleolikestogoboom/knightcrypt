@@ -6,7 +6,7 @@ import zlib
 import random
 import string
 import struct
-from knightcrypt.utils import log_info, log_success, log_warning
+from knighted.utils import log_info, log_success, log_warning
 
 class VariableRenamer(ast.NodeTransformer):
     """Renames all variables to random hex strings."""
