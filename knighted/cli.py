@@ -2,8 +2,8 @@
 import sys
 import os
 import argparse
-from knightcrypt.obfuscation import KnightObfuscator
-from knightcrypt.utils import print_banner, log_info, log_success, log_warning, log_error
+from knighted.obfuscation import KnightObfuscator
+from knighted.utils import print_banner, log_info, log_success, log_warning, log_error
 
 def main():
     parser = argparse.ArgumentParser(description="KnightCrypt - Advanced Python Encryption")
